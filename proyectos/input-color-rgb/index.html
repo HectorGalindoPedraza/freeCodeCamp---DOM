@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color RGB</title>
+    <link
+      rel="shortcut icon"
+      href="https://em-content.zobj.net/thumbs/120/apple/354/artist-palette_1f3a8.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="centrar-flex">
+    <main id="container" class="centrar-flex">
+      <div class="co-container centrar-flex">
+        <label for="red">Rojo (R)</label>
+        <input type="range" id="red" min="0" max="255" value="23" step="1"/>
+        <p id="range-rojo">23</p>
+      </div>
+      <div class="co-container centrar-flex">
+        <label for="green">Verde (G)</label>
+        <input type="range" id="green"  min="0" max="255" value="41" step="1"/>
+        <p id="range-verde">41</p>
+      </div>
+      <div class="co-container centrar-flex">
+        <label for="blue">Azul (B)</label>
+        <input type="range" id="blue" min="0" max="255" value="56" step="1"/>
+        <p id="range-azul">56</p>
+      </div>
+      <script src="./app.js"></script>
+    </main>
+  </body>
+</html>
